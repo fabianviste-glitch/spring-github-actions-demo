@@ -1,0 +1,19 @@
+
+name: Workflow horaire
+
+#on:
+ # schedule:
+  #  - cron: '0 * * * *'
+  #workflow_dispatch:
+
+jobs:
+  suivi:
+    name: Suivi du workflow
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Étape 1 - Démarrage
+        run: echo "Le workflow a démarré avec succès."
+
+      - name: Étape 2 - Vérification
+        run: echo "Le workflow est en cours d'exécution et fonctionne correctement."
